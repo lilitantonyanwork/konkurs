@@ -569,3 +569,149 @@ a{
 .news__right .news__date{
     margin-top: 40px;
 }
+.help .slogan__content{
+    background: url('../img/mask.png') #F9F7F7 no-repeat left center;
+    height: 572px;
+}
+.help{
+    margin-top: 130px;
+}
+.volume{
+    width: 20px;
+    height: 20px;
+    background: url('../img/volume.svg') no-repeat;
+    border: none;
+}
+.prev {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: url('../img/prev.svg') #696666 no-repeat center;
+    border: none;
+
+}
+.player__controls .play__pause{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: url('../img/play-puase.svg') #696666 no-repeat center;
+    border: none;
+
+}
+.player{
+    width: 427px;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.player__line{
+    max-width: 272px;
+    background: #D9D9D9;
+    border-radius: 19px;
+    width: 100%;
+    height: 8px;
+    position: relative;
+}
+.player__played{
+    background: #DA1311;
+    border-radius: 19px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact__form{
+    max-width: 538px;
+    width: 100%;
+
+}
+.form__row{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.form__input{
+    width: 100%;
+    height: 48px;
+
+    background: #ffffff;
+
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    padding: 15px 25px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.form__textarea{
+    width: 100%;
+    height: 92px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-family: "Golos Text", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.btn__send {
+    background: #DA1311;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 195px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+}
+input:valid + .placeholder {
+    display: none;
+}
+.placeholder {
+    position: absolute;
+
+
+    left: 25px;
+    top: 15px;
+}
+.placeholder::before {
+    content: attr(data-placeholder);
+    color: #696666;
+}
+.placeholder::after {
+    content: " *";
+    color: #E6A8A8;
+}
+.form__row > div{
+    width: 100%;
+    position: relative;
+}
+.help .section__title{
+    margin-bottom: 0;
+}
+.help .section__text{
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+
+    color: #696666;
+    margin-bottom: 0;
+}
